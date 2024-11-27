@@ -9,7 +9,7 @@ Reconhecer a estrutura básica da linguagem C.
 
 # Tipos de Dados em C
 Os dados são as informações a serem processadas por um computador. Podem ser classificados em várias categorias, dependendo de suas características.
-## 1. Tipos Básicos
+1. Tipos Básicos
     - Consistem em tipos aritméticos inteiros e de ponto-flutuante.
 
     - Podemos usar o operador sizeof para descobrir o tamanho de um tipo ou variável.
@@ -34,9 +34,9 @@ Os dados são as informações a serem processadas por um computador. Podem ser 
 
 
 
-## 2. Tipos de Enumeração
+2. Tipos de Enumeração
     
-## 3. Tipo void
-## 4. Tipos Derivados (structs, arrays, ponteiros, unions, etc.)
+3. Tipo void
+4. Tipos Derivados (structs, arrays, ponteiros, unions, etc.)
 
 # Ponteiros
