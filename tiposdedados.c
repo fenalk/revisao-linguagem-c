@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main(){
     //
@@ -110,6 +111,18 @@ int main(){
     printf("\nMes: %d\n", mes);
     printf("\nAno: %d\n", ano);
 
+    printf("\n\nOperadores Aritmeticos\n");
+    int e,y,z,w;
+    printf("Digite um numero: ");
+    scanf("%d", &e);
+    printf("Digite o valor a somar: ");
+    scanf("%d", &y);
+
+    z = e + y;
+    w = pow(e, 3); //x elevado ao cubo
+
+    printf("\nA soma de %d com %d equivale a %d\n", e, y, z);
+    printf("\n%d elevado ao cubo: %d\n", e, w);
 
 
 

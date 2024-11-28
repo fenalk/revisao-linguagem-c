@@ -45,11 +45,68 @@ Os dados são as informações a serem processadas por um computador. Podem ser 
 
         - Operadores Aritmético: 
         ![Operadores aritméticos](./img/image_03.png)
+        Para a operação de exponenciação, é necessário declarar a biblioteca **#include <math.h>**.
+
+
 
 2. Tipos de Enumeração
     
 3. Tipo void
 4. Tipos Derivados (structs, arrays, ponteiros, unions, etc.)
+
+# Estrutura de Controle de Decisão
+São comandos para controlar o fluxos do programa que serão executados na sequência.
+
+### 1. Desvio Condicional Simples:
+Essas instrução tem por finalidade tomar uma decisão de acordo com o resultado de uma condição (teste lógico). Se o teste retornar verdadeiro, as instruções contidas entre as chaves serão executados; caso contrário, nada ocorre.
+```C
+if(condição){
+    instrução caso condição retorne verdadeiro
+}
+instruções para condição falsa ou após executar as instruções de condições verdadeiro.
+```
+### 2. Desvio Condicional Composto:
+Essa instrução tem por finalidade tomar uma decisão de acordo com o resultado de uma condição (teste lógico).
+Se o teste retorna verdadeiro, as instruções codificadas entre as chaves do if serão executados. Se o teste retorna falso, as instruções contidas entre as chaves do else serão executadas.
+
+```C
+if(condição){
+    instrução caso condição retorne verdadeiro
+}else{
+    instrução caso a condição retorne falso
+}
+instruções após executar as instruções de condições verdadeiro ou falso.
+```
+
+### 3. Desvio Condicional Aninhado ou Desvio Condicional Encadeado:
+Usado quando é necessário verificar condições sucessivas onde uma ação será executada se um conjunto anterior de ações for satisfeito.
+
+```C
+if(condição 1){
+    instrução caso condição 1 retorne verdadeiro
+}else{
+    if(condição 2){
+        instrução caso condição 2 retorne verdadeiro
+    }else{
+        instrução caso a condição 2 retorne falso
+    }
+}
+
+```
+```C
+if(condição 1){
+    instrução caso condição 1 retorne verdadeiro
+}else if(condição 2){
+    instrução caso condição 2 retorne verdadeiro
+}else if(condição 3){
+    instrução caso condição 3 retorne verdadeiro
+}else{
+    instrução caso todas as condições anteriores sejam falso
+}
+
+```
+Essa segunda sintaxe elimina o excesso de indentação;
+
 
 # Ponteiros
 
