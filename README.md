@@ -107,6 +107,21 @@ if(condição 1){
 ```
 Essa segunda sintaxe elimina o excesso de indentação;
 
+# Estruturas de Controle de Repetição
+Em muitos casos é necessário repetir um trecho de um programa diversas vezes. Nesse caso podemos usar um loop que efetue essa repetição de código quantas vezes forem necessários.
+Os loops são chamados também de laços de repetição.
+Essa estrutura realiza um teste lógico no início do loop, e cada vez que o teste retorna o valor verdadeiro, os comandos associados ao laço são executados.
+Quando o teste retorna falso, o laço é encerrado e o processamento volta para o fluxo principal do programa.
+
+```C
+while(condição){
+    instrução caso condição retorne verdadeiro, várias vezes de acordo com a condição
+}
+```
+### Repetição controleda com while
+Imagine que precisamos escrever um algoritmo que processe um conjunto de dados repetidas vezes, mas não sabemos de antemão quantas vezes o loop deve ser executado.
+Nesse caso, precisamos usar uma técnica para controlar o número de repetições realizadas.
+Para isso usaremos uma **flag**, que é uma variável utilizada como **"sentinela"** a qual determinará quando o laço while deve ser encerrado.
 
 # Ponteiros
 
