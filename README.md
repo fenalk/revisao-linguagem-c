@@ -123,6 +123,20 @@ Imagine que precisamos escrever um algoritmo que processe um conjunto de dados r
 Nesse caso, precisamos usar uma técnica para controlar o número de repetições realizadas.
 Para isso usaremos uma **flag**, que é uma variável utilizada como **"sentinela"** a qual determinará quando o laço while deve ser encerrado.
 
+# Estruturas de Controle de Repetição - Laço For
+
+Permite construir estruturas de loop para casos onde se conhece de antemão o número de repetições que devem ser realizadas (numero finito de laços).
+
+Por exemplo, se soubermos de antemão que o laço deve se repetir 10 vezes, podemos usar a estrutura for.
+
+```C
+for(variávei = inicio; fim; incremento){
+    instruções
+}
+```
+
+# Função
+
 # Ponteiros
 
 Ponteiro é uma variável, mas especial que armazena endereços de posição de memória. 

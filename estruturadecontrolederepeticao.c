@@ -45,7 +45,6 @@ int main(){
     meedia = tootal / contadoor;
     printf("O valor medio: %.2f\n", meedia);
 
-
     return 0;
 
 
