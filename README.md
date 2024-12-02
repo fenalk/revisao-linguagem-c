@@ -140,6 +140,31 @@ Trecho de código que executa uma tarefa específica e que é permitido reutiliz
 
 ## Função void
 
+#  Variáveis Locais
+O escopo de uma variável determina como e onde uma variável poderá ser utilizada dentro de um programa.
+
+Existem três escopos de um programa:
+- Local:
+ - As variáveis locais são declaradas dentro de uma função. Elas não podem ser acessadas d fora da função, nem serem utilizadas diretamente por outras funções. Quando a função onde a variável local foi declarada termina sua execução (quando retorna), a variável é destruída (memória desalocada).
+
+- Parâmetro de Função:
+    - Os parâmetros declarados de uma função são variáveis locais à função. Portanto, só podem ser acessados diretamente a partir da função, e sua existência cessa quando a função termina sua execução.
+
+- Global:
+    - As variáveis globais são declaradas fora das funções, incluindo a função main(). Assim, se torna acessíveis a partir de qualquer parte do programa, incluindo dentro de qualquer função presente. Elas permanecem disponíveis durante toda a execução do programa. 
+    - OBS: Podemos ter duas variáveis com o mesmo nome em um programa, se uma delas for local e a outra for global. caso hajam duas variáveis com o mesmo nome, a variável local prevalece em seu escopo.
+
+# Array unidimensionais
+Um array é uma estrutura homogênea que mantém uma série de elementos de dados de mesmo tipo. 
+
+Podemos acessar os elementos individuais por meio de uma posição de índice, geralmente numérica.
+
+Possuem tamanho fixo.
+
+Um array de uma dimensão pode ser chamado de "Vetor".
+
+Um array bidimensional é conhecido como "Matriz".
+
 
 # Ponteiros
 
