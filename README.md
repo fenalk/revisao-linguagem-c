@@ -136,6 +136,10 @@ for(variávei = inicio; fim; incremento){
 ```
 
 # Função
+Trecho de código que executa uma tarefa específica e que é permitido reutilizar esse código.
+
+## Função void
+
 
 # Ponteiros
 
