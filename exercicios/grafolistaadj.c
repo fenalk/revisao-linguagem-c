@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*Aluna: Fernanda dos Santos Borges*/
+
 /*Grafo de Lista adjacência*/
 
 //Passo 1: primeiro a definir a estrutura do no 
